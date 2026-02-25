@@ -1,12 +1,441 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    <h1 class=" text-4xl text-center text-blue-500">Examen Tailwind</h1>
+    <div class="mx-[200px] my-[50px]">
+        <header class="w-full">
+            <ul>
+                <nav class="flex items-center p-4 justify-between">
+
+                    <img src="img/logo-tailwind.png" alt="Tailwind Logo">
+                    <div class="flex gap-5 ">
+                        <div class="flex gap-3">
+                            <img src="img/tlf.svg" alt="Phone Icon" class="w-[25px]">
+                            <li class="text-lg text-gray-700 transition hover:text-pink-600 duration-500"><a href="#">contact us</a></li>
+                        </div>
+                        <div class="flex gap-3">
+                            <img src="img/ticket.svg" alt="Ticket Icon" class="w-[25px]">
+                            <li class="text-lg text-gray-700 transition hover:text-pink-600 duration-500"><a href="#">Tickets</a></li>
+                        </div>
+                        <div class="flex gap-3">
+                            <img src="img/blog.svg" alt="Blog Icon" class="w-[25px]">
+                            <li class="text-lg text-gray-700 transition hover:text-pink-600 duration-500"><a href="#">blogs</a></li>
+                        </div>
+                        <div class="flex gap-3">
+                            <p>En</p>
+                            <img src="img/flechaAbajo.svg" alt="flecha abajo" class="w-[15px]">
+                        </div>
+                        <div>
+                            <button class="bg-blue-500 text-white px-4 py-2 rounded transition hover:bg-pink-600 duration-700">Login</button>
+                        </div>
+                    </div>
+
+                </nav>
+
+            </ul>
+        </header>
+        <div class="flex justify-center items-center  mt-[50px] gap-20">
+            <div class="w-[600px]">
+                <h1 class="fond-bold text-5xl my-5">Beyoncé Live in Concert!</h1>
+                <h2 class="font-semibold text-1xl my-5">A Night to Remember!</h2>
+                <p class="text-gray-600 my-3">Get ready for an extraordinary night with Beyoncé with breathtaking
+                    performances and unforgettable moments. </p>
+                <p class="text-gray-600 my-2">Don’t wait – secure your tickets</p>
+                <button class="rounded-xl bg-pink-600 text-white p-3 w-[150px] my-5 transition hover:bg-pink-800 duration-700">Get Ticket</button>
+            </div>
+            <div>
+                <img src="img/Banner-photo.svg" alt="banner photo">
+            </div>
+        </div>
+        <div class="bg-gray-700">
+            <div class="p-8">
+                <p class="text-white my-3">Find your favorite concert</p>
+                <div class="flex p-5 gap-2 bg-gray-500 rounded-2xl w-[500px] my-3">
+                    <img src="img/search-normal.png" alt="search icon" class="w-[20px]">
+                    <p class="text-white">Search by Artist, Event or Venue</p>
+                </div>
+                <div class="flex gap-3 my-3">
+                    <div class="bg-gray-500 rounded text-white p-2">#Summer</div>
+                    <div class="bg-gray-500 rounded text-white p-2">#jazz</div>
+                    <div class="bg-gray-500 rounded text-white p-2">#taylorSwift</div>
+                    <div class="bg-gray-500 rounded text-white p-2">#NewYork</div>
+                </div>
+            </div>
+
+        </div>
+        <div>
+            <div class="flex justify-between m-8">
+                <h1 class="text-2xl">Upcoming concerts</h1>
+                <p class="text-xl">See All</p>
+            </div>
+            <div class="flex gap-7 justify-center text-center">
+                <div class="border border-gray-300 rounded-2xl">
+                    <img src="img/cantante1.svg" alt="cantante1">
+                    <h1 class="font-semibold">Taylor Swift</h1>
+                    <p>San Diego</p>
+                    <p>Dec 14, 21:00</p>
+                </div>
+                <div class="border border-gray-300 rounded-2xl">
+                    <img src="img/cantante2.svg" alt="cantante2">
+                    <h1 class="font-semibold">Celine Dion</h1>
+                    <p>New York City</p>
+                    <p>Dec 13, 21:00</p>
+                </div>
+                <div class="border border-gray-300 rounded-2xl">
+                    <img src="img/cantante3.svg" alt="cantante3">
+                    <h1 class="font-semibold">Justin Bieber</h1>
+                    <p>San Francisco</p>
+                    <p>Dec 16, 20:00</p>
+                </div>
+                <div class="border border-gray-300 rounded-2xl">
+                    <img src="img/cantante4.svg" alt="cantante4">
+                    <h1 class="font-semibold">Sila Gencoglu</h1>
+                    <p>Boston</p>
+                    <p>Dec 18, 22:00</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="flex justify-between m-8">
+                <h1 class="text-2xl">Popular near you</h1>
+                <p class="text-xl">See All</p>
+            </div>
+            <div class="flex gap-7 justify-center text-center">
+                <div class="border border-gray-300 rounded-2xl">
+                    <img src="img/cantante5.svg" alt="cantante1">
+                    <h1 class="font-semibold">Jennifer Lopez</h1>
+                    <p>Seattle</p>
+                    <p>Dec 12, 21:00</p>
+                </div>
+                <div class="border border-gray-300 rounded-2xl">
+                    <img src="img/cantante6.svg" alt="cantante2">
+                    <h1 class="font-semibold">Zach Bryan</h1>
+                    <p>Miami</p>
+                    <p>Dec 08, 22:00</p>
+                </div>
+                <div class="border border-gray-300 rounded-2xl">
+                    <img src="img/cantante7.svg" alt="cantante3">
+                    <h1 class="font-semibold">Usher</h1>
+                    <p>Los Angeles</p>
+                    <p>Dec 04, 21:00</p>
+                </div>
+                <div class="border border-gray-300 rounded-2xl">
+                    <img src="img/cantante8.svg" alt="cantante4">
+                    <h1 class="font-semibold">Adele</h1>
+                    <p>Las Vegas</p>
+                    <p>Dec 03, 20:00</p>
+                </div>
+            </div>
+        </div>
+        <h1 class="text-2xl my-7">Explore by category</h1>
+        <div class="flex gap-5 justify-center text-center">
+
+            <div>
+                <img src="img/categoria1.svg" alt="category1">
+            </div>
+            <div>
+                <img src="img/categoria2.svg" alt="category2">
+            </div>
+            <div>
+                <img src="img/categoria3.svg" alt="category3">
+            </div>
+            <div>
+                <img src="img/categoria4.svg" alt="category4">
+            </div>
+            <div>
+                <img src="img/categoria5.svg" alt="category5">
+            </div>
+
+        </div>
+
+
+        <h1 class="text-2xl my-7">Artists</h1>
+        <div class="flex gap-5 justify-center text-center">
+            <div>
+                <img src="img/artista1.svg" alt="artista1">
+            </div>
+            <div>
+                <img src="img/artista2.svg" alt="artista2">
+            </div>
+            <div>
+                <img src="img/artista3.svg" alt="artista3">
+            </div>
+            <div>
+                <img src="img/artista4.svg" alt="artista4">
+            </div>
+            <div>
+                <img src="img/artista5.svg" alt="artista5">
+            </div>
+        </div>
+
+        <div class="bg-gray-800 py-10 px-6 mt-[50px]">
+            <div class="max-w-7xl mx-auto">
+
+
+                <div class="flex justify-between items-center text-white mb-2">
+                    <h1 class="text-2xl font-semibold">
+                        The latest in music, tours & artists
+                    </h1>
+                    <p class="text-sm cursor-pointer hover:underline">
+                        Explore All
+                    </p>
+                </div>
+
+                <p class="text-gray-300 mb-8">
+                    Uncovering the hottest music, breaking tour news, and artist spotlights
+                </p>
+
+
+                <div class="flex gap-6">
+
+
+                    <div class="bg-white rounded-2xl overflow-hidden shadow-lg w-1/3">
+                        <img src="img/articulo1.svg" alt="article1" class="w-full h-48 object-cover">
+
+                        <div class="p-4">
+                            <div class="flex justify-between text-xs text-gray-500 mb-3">
+                                <p>105 Comments</p>
+                                <p>100K</p>
+                            </div>
+
+                            <h2 class="font-semibold text-lg mb-2">
+                                Ariana Grande: A Pop Sensation Redefining the Music Industry
+                            </h2>
+
+                            <p class="text-sm text-gray-600">
+                                Ariana Grande has become a household name, dominating the music industry with her
+                                powerful vocals, relatable lyrics, and charismatic persona.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="bg-white rounded-2xl overflow-hidden shadow-lg w-1/3">
+                        <img src="img/articulo2.svg" alt="article2" class="w-full h-48 object-cover">
+
+                        <div class="p-4">
+                            <div class="flex justify-between text-xs text-gray-500 mb-3">
+                                <p>35 Comments</p>
+                                <p>10K</p>
+                            </div>
+
+                            <h2 class="font-semibold text-lg mb-2">
+                                Rihanna Performs First Concert in Eight Years at Pre-Wedding Party in India
+                            </h2>
+
+                            <p class="text-sm text-gray-600">
+                                Rihanna hit the stage at a lavish pre-wedding event in India to perform her first
+                                concert in nearly eight years.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="bg-white rounded-2xl overflow-hidden shadow-lg w-1/3">
+                        <img src="img/articulo3.svg" alt="article3" class="w-full h-48 object-cover">
+
+                        <div class="p-4">
+                            <div class="flex justify-between text-xs text-gray-500 mb-3">
+                                <p>85 Comments</p>
+                                <p>15K</p>
+                            </div>
+
+                            <h2 class="font-semibold text-lg mb-2">
+                                Azealia Banks Announces Back To The Union Jack UK Tour For September
+                            </h2>
+
+                            <p class="text-sm text-gray-600">
+                                The New York singer and rapper will kick off her Back To The Union Jack Tour at London's
+                                O2 Academy Brixton, before stops across the UK.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="my-8">
+                <h1 class="font-bold text-3xl">What our customers say</h1>
+                <h2 class="font-semibold">Real reviews from concert enthusiasts who love our service</h2>
+            </div>
+
+            <div class="flex justify-center gap-5">
+                <div class=" border border-gray-400 rounded-xl w-[400px] p-3">
+                    <div class="flex justify-between">
+                        <div>
+                            <p>Sousan Cruse</p>
+                            <p class="text-pink-600">66</p>
+                        </div>
+                        <div>
+                            <img src="img/Review1.svg" alt="Review1">
+                        </div>
+                    </div>
+                    <p>highly recommended ! Here I can send my friends gift cards so they can buy their favourite
+                        concets! This is how I surprised my gf </p>
+                    <p class="flex text-pink-600 justify-end">99</p>
+                </div>
+                <div>
+                    <div class=" border border-gray-400 rounded-xl w-[400px] p-3">
+                        <div class="flex justify-between">
+                            <div>
+                                <p>Paula Green </p>
+                                <p class="text-pink-600">66</p>
+                            </div>
+                            <div>
+                                <img src="img/Review2.svg" alt="Review1">
+                            </div>
+                        </div>
+                        <p>I have bought my tickets many times from here, the experience is great, having the ticket
+                            saved in my application was calming.</p>
+                        <p class="flex text-pink-600 justify-end">99</p>
+                    </div>
+                </div>
+                <div>
+                    <div class=" border border-gray-400 rounded-xl w-[400px] p-3">
+                        <div class="flex justify-between">
+                            <div>
+                                <p>Alastair Bard</p>
+                                <p class="text-pink-600">66</p>
+                            </div>
+                            <div>
+                                <img src="img/Review3.svg" alt="Review1">
+                            </div>
+                        </div>
+                        <p>Buying n searching for tickets has never been easier! The website had the best prices
+                            compared to other ticket selling platforms. </p>
+                        <p class="flex text-pink-600 justify-end">99</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex mt-[100px] justify-center gap-1">
+                <p>Have a thought?</p>
+                <img src="img/edit.svg" alt="edit">
+            </div>
+        </div>
+
+        <footer class="bg-gray-800 mt-20 text-white">
+            <div class="max-w-7xl mx-auto px-6 pt-12 pb-6">
+                <div class="flex flex-wrap gap-10 justify-between">
+
+
+                    <div class="max-w-xs">
+                        <h2 class="text-white font-semibold text-base mb-1 ">
+                            Let's keep in touch
+                        </h2>
+                        <p class="text-gray-400 text-sm mt-2 mb-4">
+                            Stay updated with Concert Hub's latest<br />news and exclusive offers!
+                        </p>
+
+
+                        <div class="flex items-center bg-white rounded-2xl px-4 py-2 mb-2 w-full max-w-sm">
+                            <div class="subscribe-input flex-1 text-sm text-gray-700 bg-transparent">
+                                <p>Enter your email address</p>
+                                <button
+                                    class="bg-pink-600 hover:bg-pink-700 text-white text-sm font-medium px-4 py-2 rounded-xl">
+                                    Subscribe Now
+                                </button>
+                            </div>
+                        </div>
+                        <p class="text-gray-500 text-xs mb-5">
+                            By subscribing, you agree to our terms &
+                            conditions & Privacy Policy
+                        </p>
+
+
+                        <div class="flex gap-3">
+
+                            <div class="flex bg-white rounded-2xl">
+
+                                <div class="text-left flex">
+                                    <img src="img/google-paly.svg" alt="google-paly">
+                                    <div class="text-gray-400 text-[9px] leading-none">Download on the</div>
+                                    <div class="text-white text-xs font-semibold leading-tight">Google Play</div>
+                                    
+                                </div>
+                            </div>
+
+
+                            <div class="flex bg-white rounded-2xl">
+
+                                <div class="text-left flex">
+                                    <img src="img/apple.svg" alt="apple">
+                                    <div class="text-gray-400 text-[9px] leading-none">Download on the</div>
+                                    <div class="text-white text-xs font-semibold leading-tight">App Store</div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <h3 class="text-white font-semibold text-sm mb-4">Concert Hub</h3>
+                        <ul class="space-y-3">
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Event organizers</a></li>
+                            <li><a href="#">Getting there</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#">Terms & conditions</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div>
+                        <h3 class="text-white font-semibold text-sm mb-4">Looking For Help</h3>
+                        <ul class="space-y-3">
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Customer Service</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div>
+                        <h3 class="text-white font-semibold text-sm mb-4">Looking For More</h3>
+                        <ul class="space-y-3">
+                            <li><a href="#">Cancelled Concerts</a></li>
+                            <li><a href="#">Cancellation Insurance</a></li>
+                            <li><a href="#">Rescheduled Events</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="flex flex-col gap-2">
+
+                        <img src="img/instagram.svg" alt="instagram">
+                        <img src="img/youtube.svg" alt="youtube">
+                        <img src="img/xrp-(xrp).svg" alt="xrp">
+                        <img src="img/spotify.svg" alt="spotify">
+                        <img src="img/facebook.svg" alt="facebook">
+                    </div>
+                </div>
+
+
+                <div class=" mt-10 pt-5 flex justify-center items-center gap-2">
+
+                    <span class="text-gray-400 text-sm">ConcertHub All Rights Reserved</span>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+
+
 </body>
-</html>
